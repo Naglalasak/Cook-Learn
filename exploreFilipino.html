@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Dishes</title>
+    <link rel="stylesheet" href="css/exploreJapanese.css">
+    <link href='https://fonts.googleapis.com/css?family=Kufam' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Cook&Learn</div>
+        <nav class="navigation">
+            <a href="/Home.html">Home</a>
+            <a href="/recipe.html">Recipe</a>
+            <a href="/cuisine.html">Cuisines</a>
+            <a href="/about.html">About</a>
+        </nav>
+        <div class="searchbar">
+            <span class="search-icon">🔍︎</span>
+            <input type="search" id="searchNavbar" placeholder="Search recipes">
+        </div>
+        <div class="heart_user">
+            <span class="heart">
+                <i class="fa-regular fa-heart"></i>
+            </span>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </header>
+    <section class="text">
+        <h1>Filipino Dishes</h1>
+        <p>Dive into the fun and flavorful world of Filipino dishes, loved worldwide!</p>
+    </section>
+    <section class="searchContainer">
+        <div class="searchbarBody">
+            <span class="search-icon">🔍︎</span>
+            <input type="search" id="searchPage" placeholder="Search recipes">
+        </div>
+    </section>
+    <div class="browse">
+            <p>Browse by:</p>
+        </div>
+    <section class="browseContainer">
+        
+        <div class="select">
+            <label for="selectDiff"></label>
+            <select name="Difficulty" id="selectDiff">
+                <option value="" disabled selected hidden>Difficulty</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advance">Advance</option>
+            </select>
+        </div>
+        <div class="select">
+            <label for="selectMeal"></label>
+            <select name="mealType" id="selectMeal">
+                <option value="" disabled selected hidden>Meal Type</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="dessert">Dessert</option>
+            </select>
+        </div>
+        <div class="select">
+            <label for="selectTime"></label>
+            <select name="cookingTime" id="selectTime">
+                <option value="" disabled selected hidden>Cook Time</option>
+                <option value="0-30 min">0-30 min</option>
+                <option value="30-60 min">30-60 min</option>
+                <option value="60-90 min">60-90 min</option>
+                <option value="90-120 min">90-120 min</option>
+                <option value="120-150 min">120-150 min</option>
+                <option value="150-180 min">150-180 min</option>
+                <option value="180-210 min">180-210 min</option>
+            </select>
+        </div>
+        <button id="clearFilters" class="clear-btn">Clear Filters</button>
+    </section>
+
+    <section class="cards">
+            <!--card1-->
+            <div class="card"
+            data-difficulty = "intermediate"
+            data-meal= "lunch"
+            data-time="30-60 min">
+                <div class="card-image">
+                    <img src="/SOURCE/images/chicken-adobo.jpg" alt="chicken-adobo.jpg">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Chicken Adobo</h3>
+                    <p>Chicken Adobo is a classic Filipino dish made by simmering chicken in a savory-sour sauce of soy sauce, vinegar, garlic, bay leaves, and peppercorns.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 40 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.8 (234)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty">Intermediate</span>
+                    </div>
+                </div>
+                <a href="/adoboRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+            <!--card2-->
+            <div class="card"
+              data-difficulty = "intermediate"
+            data-meal= "lunch"
+            data-time="30-60 min">
+                <div class="card-image">
+                    <img src="/SOURCE/images/R02988-Pork-Sinigang.jpg" alt="Sinigang.jpg">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Sinigang na baboy</h3>
+                    <p>A sour tamarind-based pork soup cooked with vegetables like kangkong, radish, eggplant, known for its tangy and comforting flavor. <br><br></p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 60 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.7 (126)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty">Intermediate</span>
+                    </div>
+                </div>
+                <a href="/sinigangRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+            <!--card3-->
+            <div class="card"
+              data-difficulty = "beginner"
+            data-meal= "breakfast"
+            data-time="30-60 min">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Pancit.jpg" alt="Pancit.jpg">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Pancit</h3>
+                    <p>Quick and easy pancit is a Filipino noodle stir-fry featuring rice noodles tossed with chicken, pork, shrimp, cabbage, carrots, green beans, soy sauce, and garlic for a savory one-pan meal.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 40 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.8 (92)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Breakfast</span>
+                        <span class="difficulty_beg">Beginner</span>
+                    </div>
+                </div>
+                <a href="/pancitRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+            <!--card4-->
+            <div class="card"
+              data-difficulty = "beginner"
+            data-meal= "lunch"
+            data-time="0-30 min">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Lumpia.jpg" alt="Lumpia.jpg">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Filipino Lumpia</h3>
+                    <p>Traditional Filipino lumpia are crispy fried spring rolls filled with savory ground pork, onions, garlic, carrots, cabbage, green onions, seasoned simply with soy sauce and spices.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 30 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.9 (115)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty_beg">Beginner</span>
+                    </div>
+                </div>
+                <a href="/lumpiaRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+            <!--card5-->
+            <div class="card"
+              data-difficulty = "beginner"
+            data-meal= "lunch"
+            data-time="0-30 min">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Beef Giniling.jpg" alt="Beef Giniling.jpg">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Beef Giniling</h3>
+                    <p>Filipino beef giniling (afritada style) is ground beef simmered with potatoes, carrots, bell peppers, raisins, soy sauce, and tomato sauce for a savory-sweet one-pan comfort dish.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 30 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.7 (124)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty_beg">Beginner</span>
+                    </div>
+                </div>
+                <a href="/ginilingRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+            <!--card6-->
+            <div class="card"
+              data-difficulty = "intermediate"
+            data-meal= "dessert"
+            data-time="30-60 min">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Ube macapuno.jpg" alt="Ube macapuno.jpg">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Ube Macapuno</h3>
+                    <p>Ube macapuno cake is a light purple yam chiffon cake made vibrant with ube extract and layered or filled with sweetened macapuno (coconut strings), creating a uniquely colored Filipino dessert.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 60 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.9 (194)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Dessert</span>
+                        <span class="difficulty">Intermediate</span>
+                    </div>
+                </div>
+                <a href="/ubeMacapunoRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <footer>
+        <div class="footer-content">
+            <div class="footer-section1">
+                <div class="footer-section">
+                    <h3>Cook&Learn</h3>
+                    <p id="discover">Discover and share amazing recipes from around the world.</p>
+                </div>
+            </div>
+            <div class="footer-section2">
+                <div class="footer-section">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="/recipe.html">All Recipes</a></li>
+                        <li><a href="/cuisine.html">Cuisine</a></li>
+                        <li><a href="/cuisine.html">Popular</a></li>
+                        <li><a href="#new-release">New Release</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section3">
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#breakfast">Breakfast</a></li>
+                        <li><a href="#lunch">Lunch</a></li>
+                        <li><a href="#dinner">Dinner</a></li>
+                        <li><a href="#dessert">Dessert</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section4">
+                <div class="footer-section">
+                    <h3 id="Connect">Connect</h3>
+                    <div class="social-icons">
+                        <a href="#facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#twitter" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Cook&Learn. All rights reserved.
+        </div>
+    </footer>
+    <script src="js/dropDownSearch.js"></script>
+</body>
+
+</html>
