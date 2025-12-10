@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Cook&Learn</div>
+        <nav class="navigation">
+            <a href="/Home.html">Home</a>
+            <a href="/recipe.html">Recipe</a>
+            <a href="/cuisine.html">Cuisines</a>
+            <a href="/about.html">About</a>
+        </nav>
+        <div class="searchbar">
+            <span class="search-icon">🔍︎</span>
+            <input type="search" placeholder="Search recipes">
+        </div>
+        <div class="heart_user">
+            <span class="heart">
+                <i class="fa-regular fa-heart"></i>
+            </span>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </header>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Taste, share, and explore global cuisines</h1>
+                <p>Discover recipes from around the world, share your own creations, and connect with a community of food lovers. From local favorites to global delights, explore flavors that bring people together.</p>
+                <div class="hero-buttons">
+                    <button class="button_1"><a href="/recipe.html">Explore Recipes</a></button>
+                  
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="cards-container">
+        <section class="trendText">
+            <p id="trend1">Trending Cuisines Worldwide</p>
+            <div class="view-all-container">
+                <p>Hand-picked recipes by our culinary experts</p>
+                <button class="view-all">
+                    <a href="/recipe.html" style="text-decoration: none; color: black;"><p>View All</p></a>
+                </button>
+            </div>
+        </section>
+
+        <section class="cards">
+            <!--card1-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/SOURCE/images/chicken-adobo.jpg" alt="Chicken Adobo">
+                    <span class="tag">Filipino</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Pork Adobo</h3>
+                    <p>Classic Filipino dish made by simmering chicken in a savory-sour sauce of soy sauce, vinegar, garlic, bay leaves, and peppercorns.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 40 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.8 (234)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty">Intermediate</span>
+                    </div>
+                </div>
+                <a href="/adoboRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+
+            <!--card2-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Chulapas.jpg" alt="Beef Tacos">
+                    <span class="tag">Mexican</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Chalupas</h3>
+                    <p>Chalupas are Mexican snacks with crispy masa shells, filled with seasoned beef, beans, cheese, and salsa.s</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 45 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.6 (232)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty">Intermediate</span>
+                    </div>
+                </div>
+                <a href="chalupasRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+
+            <!--card3-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/SOURCE/images/ichiraku.jpg" alt="ichiraku.jpg">
+                    <span class="tag">Japanese</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Home made Ichiraku</h3>
+                    <p>Rich and flavorful ramen soup with tender pork, soft-boiled eggs, and fresh vegetables <br><br></p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 50 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.9 (218)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Dinner</span>
+                        <span class="difficulty">Intermediate</span>
+                    </div>
+                </div>
+                <a href="/ichirakuRecipe.html" style="text-decoration: none;"><button class="view-recipe-btn">View Recipe</button></a>
+            </div>
+        </section>
+    </section>
+
+    <div class="global-cuisine">
+        <h1>Global Cuisines</h1>
+        <p>Discover authentic flavors from different cultures and regions around the world</p>
+    </div>
+
+    <div class="view-all-container_1">
+       <button class="view-all">
+             <a href="/cuisine.html" style="text-decoration: none; color: black;"><p>View All</p></a>
+        </button>
+        
+    </div>
+
+    <section class="cuisines">
+        <!--cuisine1-->
+        <div class="cuisine-card">
+            <a href="/exploreJapanese.html" style="text-decoration: none;">
+            <img src="/SOURCE/images/japanese.jpg" alt="Japanese Cuisine" class="type">
+            <div class="card-label">Japanese</div>
+            </a>
+        </div>
+
+        <!--cuisine2-->
+        <div class="cuisine-card">
+             <a href="/exploreThai.html" style="text-decoration: none;">
+            <img src="/SOURCE/images/thai.jpeg" alt="Thai Cuisine" class="type">
+            <div class="card-label">Thai</div>
+            </a>
+        </div>
+
+        <!--cuisine3-->
+        <div class="cuisine-card">
+             <a href="/exploreItalian.html" style="text-decoration: none;">
+            <img src="/SOURCE/images/italian.jpg" alt="Italian Cuisine" class="type">
+            <div class="card-label">Italian</div>
+            </a>
+        </div>
+
+        <!--cuisine4-->
+        <div class="cuisine-card">
+             <a href="/exploreFilipino.html" style="text-decoration: none;">
+            <img src="/SOURCE/images/filipino.jpg" alt="Filipino Cuisine" class="type">
+            <div class="card-label">Filipino</div>
+            </a>
+        </div>
+
+        <!--cuisine5-->
+        <div class="cuisine-card">
+             <a href="/exploreMexican.html" style="text-decoration: none;">
+            <img src="/SOURCE/images/mexican.jpg" alt="Mexican Cuisine" class="type">
+            <div class="card-label">Mexican</div>
+            </a>
+        </div>
+    </section>
+
+    <div class="how">
+        <h1>How Cook&Learn Works</h1>
+    </div>
+
+    <!--Steps-->
+    <section class="steps">
+        <div class="all_steps">
+            <h1>1</h1>
+            <p>Upload your favorite recipes with photos, ingredients, and step-by-step instructions.</p>
+        </div>
+        <div class="all_steps">
+            <h1>2</h1>
+            <p>Browse through thousands of recipes from different cuisines and cultures.</p>
+        </div>
+        <div class="all_steps">
+            <h1>3</h1>
+            <p>Try new recipes in your kitchen and share your cooking experiences with others.</p>
+        </div>
+    </section>
+
+    <!--popular recipe-->
+    <section class="cards-container_2">
+        <section class="trendText1">
+            <p id="trend2">Popular Recipes</p>
+            <p>Trending recipes around the world</p>
+        </section>
+
+        <section class="cards">
+            <!--card1-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/SOURCE/images/lavacake.jpg" alt="Chicken Adobo">
+                    <span class="tag">French</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Decadent individual chocolate cakes with molten centers, perfect for dessert.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 30 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.6 (294)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty_ad">Advance</span>
+                    </div>
+                </div>
+                <span class="user_icon"><i class="fa-solid fa-user"></i><p>Carl John Tolenada</p></span>
+            </div>
+
+            <!--card2-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Mediterranean-Salad8.jpg" alt="Mediterranean Salad">
+                    <span class="tag">Mediterranean</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Mediterranean Salad</h3>
+                    <p>Fresh and healthy salad with olives, feta cheese, tomatoes, and olive oil dressing.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 15 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.1 (56)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Lunch</span>
+                        <span class="difficulty_beginner">Beginner</span>
+                    </div>
+                </div>
+                <span class="user_icon"><i class="fa-solid fa-user"></i><p>Mhiko Singalawa</p></span>
+            </div>
+
+            <!--card3-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/SOURCE/images/Green Curry.jpg" alt="Green Curry">
+                    <span class="tag">Thai</span>
+                    <span class="favorite-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3>Thai Green Curry</h3>
+                    <p>Aromatic and spicy Thai curry with coconut milk, vegetables, and your choice of protein.</p>
+                    <div class="card-details">
+                        <span class="time">
+                            <i class="fa-regular fa-clock"></i> 20 min
+                        </span>
+                        <span class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i> 4.5 (124)
+                        </span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="meal-type">Dinner</span>
+                        <span class="difficulty_inter">Intermediate</span>
+                    </div>
+                </div>
+                <span class="user_icon"><i class="fa-solid fa-user"></i><p>Shota Iida</p></span>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section1">
+                <div class="footer-section">
+                    <h3>Cook&Learn</h3>
+                    <p id="discover">Discover and share amazing recipes from around the world.</p>
+                </div>
+            </div>
+            <div class="footer-section2">
+                <div class="footer-section">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="/recipe.html">All Recipes</a></li>
+                        <li><a href="/cuisine.html">Cuisine</a></li>
+                        <li><a href="/cuisine.html">Popular</a></li>
+                        <li><a href="#new-release">New Release</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section3">
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#breakfast">Breakfast</a></li>
+                        <li><a href="#lunch">Lunch</a></li>
+                        <li><a href="#dinner">Dinner</a></li>
+                        <li><a href="#dessert">Dessert</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section4">
+                <div class="footer-section">
+                    <h3 id="Connect">Connect</h3>
+                    <div class="social-icons">
+                        <a href="#facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#twitter" aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Cook&Learn. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
